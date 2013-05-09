@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap 101 Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="span6 offset3">
+            <h1>Downloads phrases</h1>
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="span8 offset2 well">
+            <div class="row-fluid">
+                <div class="span10 offset1">
+                    <input type="text" id="inputText" class="input-block-level">
+                    <button class="btn span3 offset1" id="inputTextBtn">Say</button>
+                    <a href="#" class="btn span3 offset3" id="downloadBtn" download="filename.mp3">Download</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row-fluid">
+        <audio src="#" class="span6 offset3" id="audio" preload="auto" controls autoplay type="audio/mpeg"></audio>
+    </div>
+</div>
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/StringOperations.js"></script>
+<script src="js/App.js"></script>
+</body>
+</html>

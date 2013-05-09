@@ -26,7 +26,7 @@ App.StringOpperations = {
         text = text.toLowerCase();
         text = text.replace(/[^-a-zA-Z0-9,&\s]+/ig, ' ');
         text = text.replace(/[\s-]+/, ' ');
-        text = text.replace(/\s+/gi, '-');
+        text = text.replace(/\s+/gi, ' ');
         text = text.trim();
         return text;
     }
